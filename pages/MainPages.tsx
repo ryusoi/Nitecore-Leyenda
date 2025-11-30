@@ -88,17 +88,6 @@ export const HomePage: React.FC<PageProps> = ({ lang }) => {
       {/* Content Container */}
       <div className="relative z-20 bg-[#050505] shadow-[0_-50px_100px_rgba(5,5,5,1)] border-t border-white/10">
         
-        {/* Awards Header */}
-        <div className="bg-[#111] py-8 border-b border-[#222]">
-            <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-6">
-                <span className="text-gray-500 font-bold uppercase tracking-widest text-xs">{t['awards.title']}</span>
-                <div className="flex gap-8 opacity-60 grayscale hover:grayscale-0 transition-all duration-500">
-                    <img src="https://flashlight.nitecore.com/Public/en/Flashlight/images/brand1.png" alt="iF Design Award" className="h-8 object-contain" />
-                    <img src="https://flashlight.nitecore.com/Public/en/Flashlight/images/brand3.png" alt="Red Dot Award" className="h-8 object-contain" />
-                </div>
-            </div>
-        </div>
-
         {/* 2. Latest Release Section - Large Form Layout */}
         <section className="py-24 bg-[#080808]">
             <div className="container mx-auto px-4">
