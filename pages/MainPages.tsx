@@ -477,6 +477,17 @@ export const OlightPage: React.FC<PageProps> = ({ lang }) => {
                      ))}
                  </div>
              </div>
+             
+             <div className="mt-8 rounded-2xl overflow-hidden border border-[#333] shadow-2xl">
+                <video 
+                   src="https://wafisohswxqutsttotkb.supabase.co/storage/v1/object/public/Tek/X3%20Owl%20Wuben.mp4"
+                   className="w-full h-full object-cover"
+                   autoPlay 
+                   muted 
+                   loop 
+                   playsInline
+                />
+             </div>
          </div>
 
          {/* Products Grid */}
